@@ -14,7 +14,7 @@ class Movies(database.Model):
             "id": self.id,
             "title": self.title,
             "description": self.description,
-            "release_year": self.release_yer
+            "release_year": self.release_year
         }
     
     def __repr__(self) -> str:
